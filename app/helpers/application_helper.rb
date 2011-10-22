@@ -13,4 +13,8 @@ module ApplicationHelper
     (!@title.nil? && (@title.include? page_name) ) ? "active" : ""
   end
   
+  def link_candidate(name,path)
+    link_to(image_tag(asset_path "128x150/#{name}.jpg"), path)
+  end
+  
 end
