@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
   
-  def index
+  def main
+    @title = "Home"
   end
   
   def about

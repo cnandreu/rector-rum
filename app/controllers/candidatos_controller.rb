@@ -1,5 +1,6 @@
 class CandidatosController < ApplicationController
   def all
+    @title = "Candidatos"
   end
 
   def agustinirizarry
