@@ -1,4 +1,20 @@
 RectorRum::Application.routes.draw do
+  
+  
+  root :to => "pages#main"
+  
+  match '/contact', :to => 'pages#contact'
+  match '/about',   :to => 'pages#about'
+  
+  get "all" => "candidatos#all", :as => "all"  
+
+  get "candidatos/agustinirizarry"
+  get "candidatos/cecilioortiz"
+  get "candidatos/douglassantos"
+  get "candidatos/hectorhuyke"
+  get "candidatos/jorgeshmidt" 
+  get "candidatos/riverasantos"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
