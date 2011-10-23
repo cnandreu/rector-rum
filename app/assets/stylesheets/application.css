@@ -15,3 +15,8 @@
 .topbar-inner a:hover{
 	text-decoration: none;
 }
+/*Twitter and facebook buttons in footer*/
+.spread{
+float: left;
+}
+
