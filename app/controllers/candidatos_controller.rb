@@ -20,7 +20,8 @@ class CandidatosController < ApplicationController
   end
 
   def jorgeshmidt
-    @title = "Jorge Shmidt"
+    #@title = "Jorge Shmidt"
+    @title = "Jorge Schmidt"
   end
 
   def riverasantos
