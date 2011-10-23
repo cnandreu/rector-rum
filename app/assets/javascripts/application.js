@@ -7,3 +7,5 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+var _gaq=[['_setAccount','UA-4578785-6'],['_trackPageview']];(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src='//www.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'))
