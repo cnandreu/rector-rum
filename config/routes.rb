@@ -5,6 +5,7 @@ RectorRum::Application.routes.draw do
   
   match '/contact', :to => 'pages#contact'
   match '/about',   :to => 'pages#about'
+  match '/los5',   :to => 'pages#los5'
   
   get "all" => "candidatos#all", :as => "all"  
 
