@@ -1,2 +1,10 @@
-<h1>Pages#main</h1>
-<p>Find me in app/views/pages/main.html.erb</p>
+<div class="hero-unit">
+  <h1>¡Votemos!</h1>
+  <p>Actualmente la comunidad Universitaria no puede elegir democráticamente a su rector o rectora. Pero eso no nos cohíbe de expresar nuestras preferencias. Vota para dejar saber tus preferencias, ¿cuales piensas que realmente son los mejores candidatos? </p>
+
+<p>
+	<%= link_to("Ver Candidatos", all_path, :class=> "btn primary large") %>
+	<%=  link_to("Votar", "#", :class=> "btn success large pull-right") %>
+</p>
+
+</div>
