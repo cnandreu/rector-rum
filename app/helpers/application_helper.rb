@@ -14,10 +14,10 @@ module ApplicationHelper
   end
 
   def link_candidate(name,path,size)
-    link_to(image_tag(asset_path "#{size}/#{name}.jpg"), path)
+    link_to(image_candidate(name,size),path)
   end
 
-  def image_candidate(name,size)
+  def image_candidate(name,size)     
     image_tag(asset_path "#{size}/#{name}.jpg", :class=>"thumbnail")
   end
 
