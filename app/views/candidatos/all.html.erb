@@ -1,105 +1,30 @@
 <section id="media">
-  <div class="page-header">
-    <h1>Candidatos</h1>
+<div class="page-header">
+  <h1>Candidatos</h1>
+</div>
+<!-- Table structure -->
+<div class="row">
+  <div class="span16">
+    <h3>Sobre los Candidatos</h3>
+    <p>Hay que poner texto aquí.</p>
   </div>
-  <!-- Table structure -->
-  <div class="row">
-      <div class="span16">
-      <h3>Sobre los Candidatos</h3>
-      <p>Son las personas que quedaron despues... bla bla bla... bla bla bla... bla bla bla... bla bla bla...</p>
-      </div>
-  </div>
-  <div class="row">
-        <div class="span-one-sixth">
-            <p>Agustin Irizarry</p>
-            <p class="media-grid">
-            	<%= link_candidate("agustinirizarry",candidatos_agustinirizarry_path) %>
-			</p>
-            <h5>Prof. Economia</h5>
-            <ul>
-                <li>1</li>
-                <li>1</li>
-                <li>1</li>
-                <li>2</li>
-                <li>2</li>
-                <li>2</li>
-            </ul>
-        </div>
-        <div class="span-one-sixth">
-            <p>Cecilio Ortiz</p>
-            <p class="media-grid">
-                  <%= link_candidate("cecilioortiz",candidatos_cecilioortiz_path) %>
-            </p>
-            <h5>Prof. Economia</h5>
-            <ul>
-                <li>1</li>
-                <li>1</li>
-                <li>1</li>
-                <li>2</li>
-                <li>2</li>
-                <li>2</li>
-            </ul>
-        </div>
-        <div class="span-one-sixth">
-			<p>Douglas Santos</p>
-            <p class="media-grid">
-                  <%= link_candidate("douglassantos",candidatos_douglassantos_path) %>
-            </p>
-            <h5>Prof. Economia</h5>
-            <ul>
-                <li>1</li>
-                <li>1</li>
-                <li>1</li>
-                <li>2</li>
-                <li>2</li>
-                <li>2</li>
-            </ul>
-        </div>
-        <div class="span-one-sixth">
-            <p>Hector Huyke</p>
-            <p class="media-grid">
-                <%= link_candidate("hectorhuyke",candidatos_hectorhuyke_path) %>
-            </p>
-            <h5>Prof. Economia</h5>
-            <ul>
-                <li>1</li>
-                <li>1</li>
-                <li>1</li>
-                <li>2</li>
-                <li>2</li>
-                <li>2</li>
-            </ul>
-        </div>
-        <div class="span-one-sixth">
-            <p>Jorge Shmidt</p>
-            <p class="media-grid">
-                <%= link_candidate("jorgeshmidt",candidatos_jorgeshmidt_path) %>
-            </p>
-            <h5>Prof. Economia</h5>
-            <ul>
-                <li>1</li>
-                <li>1</li>
-                <li>1</li>
-                <li>2</li>
-                <li>2</li>
-                <li>2</li>
-            </ul>
-        </div>
-        <div class="span-one-sixth">
-            <p>Rivera Santos</p>
-            <p class="media-grid">
-                <%= link_candidate("riverasantos",candidatos_riverasantos_path) %>
-            </p>
-            <h5>Prof. Economia</h5>
-            <ul>
-                <li>1</li>
-                <li>1</li>
-                <li>1</li>
-                <li>2</li>
-                <li>2</li>
-                <li>2</li>
-            </ul>
-        </div>
+</div>
+<div class="row">
+
+  <% candidates = get_candidates %>
+  <% list = get_random_list(candidates) %>
+  <% list.each do |element| %>
+    <% name = candidates[element][0] %>
+    <% path = candidates[element][1] %>
+
+    <div class="span-one-sixth">
+      <p><%= name %></p>
+      <p class="media-grid">
+      <%= link_candidate(get_linkable_name(name),path) %>
+      </p>
     </div>
-  </div><!-- /row -->
+
+  <%end%>
+
+</div><!-- /row -->
 </section>
