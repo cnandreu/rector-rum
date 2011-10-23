@@ -1,3 +1,4 @@
+# RoR stuff?
 .bundle
 db/*.sqlite3*
 log/*.log
@@ -5,7 +6,13 @@ log/*.log
 tmp/
 .sass-cache/
 doc/
+
+# Vim Files
 *.swp
+
+# ???
 *~
+
+# Mac OS Files
 .project
 .DS_Store
