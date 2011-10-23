@@ -12,4 +12,7 @@ class PagesController < ApplicationController
     @title = "Contact us"
   end
 
+  def los5 
+    @title = "Los 5"
+  end
 end
