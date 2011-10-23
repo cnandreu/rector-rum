@@ -13,7 +13,7 @@ RectorRum::Application.routes.draw do
   get "candidatos/cecilioortiz"
   get "candidatos/douglassantos"
   get "candidatos/hectorhuyke"
-  get "candidatos/jorgeshmidt" 
+  get "candidatos/jorgeschmidt" 
   get "candidatos/riverasantos"
 
   # The priority is based upon order of creation:

@@ -7,7 +7,7 @@ module CandidatosHelper
       1 => ["Cecilio Ortiz",candidatos_cecilioortiz_path], 
       2 => ["Douglas Santos",candidatos_douglassantos_path], 
       3 => ["Hector Huyke",candidatos_hectorhuyke_path], 
-      4 => ["Jorge Shmidt",candidatos_jorgeshmidt_path], 
+      4 => ["Jorge Schmidt",candidatos_jorgeschmidt_path], 
       5 => ["Rivera Santos",candidatos_riverasantos_path] 
     }  
 
