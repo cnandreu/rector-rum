@@ -1,64 +1,65 @@
 <section id="media">
-  <div class="row">
+<div class="row">
   <!-- Table structure -->
-      <div class="span3">
-            <p class="media-grid">
-                <img class="thumbnail" src="http://placehold.it/340x300" alt="">
-            </p>
-      </div>
-      <div class="span13">
-      <h1><%= @title %></h1>
-      <p>Thumbnails in the <code>.media-grid</code> can be any size, but they work best when mapped directly to the built-in Bootstrap grid system. Image widths like 90, 210, and 330 combine with a few pixels of padding to equal the <code>.span2</code>, <code>.span4</code>, and <code>.span6</code> column sizes.</p>
-      </div>
+  <div class="span3">
+    <p class="media-grid">
+    <%= image_candidate(get_linkable_name(@title),"135x170") %>
+
+    </p>
   </div>
-    <div class="page-header">
-        <h1>Preguntas</h1>
-    </div>
+  <div class="span13">
+    <h1><%= @title %></h1>
+    <p>Thumbnails in the <code>.media-grid</code> can be any size, but they work best when mapped directly to the built-in Bootstrap grid system. Image widths like 90, 210, and 330 combine with a few pixels of padding to equal the <code>.span2</code>, <code>.span4</code>, and <code>.span6</code> column sizes.</p>
+  </div>
+</div>
+<div class="page-header">
+  <h1>Preguntas</h1>
+</div>
 
-  <div class="row">
-        <div class="span16">
-            <dl>
-                <dt><h3>¿Qué representa para usted ser Rector del Recinto Universitario de Mayagüez? #1</h3></dt>
-                <dd>Ser Rector del RUM es una responsabilidad, una distinción y un orgullo. Aceptar la responsabilidad implica, a corto plazo, el hacer un esfuerzo honesto para entender las necesidades de la comunidad universitaria y trabajar juntos para satisfacerlas. Para hacer esto, en un estado de sitio como en el que nos encontramos hoy, es necesario establecer prioridades negociadas con la comunidad universitaria. A mediano y largo plazo la responsabilidad implica establecer objetivos y procesos que nos encaminen a alcanzar nuestras ambiciones comunes. La distinción será efímera si no respondemos adecuadamente a los deseos y aspiraciones de nuestra comunidad.</dd>
+<div class="row">
+  <div class="span16">
+    <dl>
+      <dt><h3>¿Qué representa para usted ser Rector del Recinto Universitario de Mayagüez? #1</h3></dt>
+      <dd>Ser Rector del RUM es una responsabilidad, una distinción y un orgullo. Aceptar la responsabilidad implica, a corto plazo, el hacer un esfuerzo honesto para entender las necesidades de la comunidad universitaria y trabajar juntos para satisfacerlas. Para hacer esto, en un estado de sitio como en el que nos encontramos hoy, es necesario establecer prioridades negociadas con la comunidad universitaria. A mediano y largo plazo la responsabilidad implica establecer objetivos y procesos que nos encaminen a alcanzar nuestras ambiciones comunes. La distinción será efímera si no respondemos adecuadamente a los deseos y aspiraciones de nuestra comunidad.</dd>
 
-                <dt><h3>Describa cómo ha sido su relación con la comunidad universitaria: estudiantes, personal docente y no-docente. Ofrezca ejemplos relevantes y comente cómo esa experiencia podría ayudarle en su gestión como Rector. #1</h3></dt>
-                <dd>Soy Catedrático y obtuve todos mis ascensos con un balance entre la enseñanza, la investigación y el servicio. Mis cursos se llenan a pesar de que en mi Departamento tengo reputación de ser un profesor exigente. Todos los semestres desde que soy profesor he recibido invitación de mis alumnos para que ofrezca charlas en los temas de mi especialidad.
+      <dt><h3>Describa cómo ha sido su relación con la comunidad universitaria: estudiantes, personal docente y no-docente. Ofrezca ejemplos relevantes y comente cómo esa experiencia podría ayudarle en su gestión como Rector. #1</h3></dt>
+      <dd>Soy Catedrático y obtuve todos mis ascensos con un balance entre la enseñanza, la investigación y el servicio. Mis cursos se llenan a pesar de que en mi Departamento tengo reputación de ser un profesor exigente. Todos los semestres desde que soy profesor he recibido invitación de mis alumnos para que ofrezca charlas en los temas de mi especialidad.
 
-Nunca he perdido la paciencia con mis alumnos, cosa que no puedo reclamar con mis colegas de trabajo (docentes y no). A pesar de mis defectos, entre los que resalta una sinceridad a menudo excesiva, mis relaciones con los colegas docentes y no docentes son cordiales o amistosas.</dd>
+      Nunca he perdido la paciencia con mis alumnos, cosa que no puedo reclamar con mis colegas de trabajo (docentes y no). A pesar de mis defectos, entre los que resalta una sinceridad a menudo excesiva, mis relaciones con los colegas docentes y no docentes son cordiales o amistosas.</dd>
 
-                <dt><h3>¿Qué experiencias lo cualifican a usted para ser Rector del Recinto Universitario de Mayagüez? #1</h3></dt>
-                <dd>Dos veces fui Director Asociado de mi Departamento y una vez Decano Auxiliar de Asuntos Académicos del Recinto. Fui electo Senador Académico y representé con ahínco a mi Facultad en el Senado. Fui electo al Comité Graduado de mi Departamento durante 10 años. He sido electo al Comité de Personal de mi Departamento. En ambos comités, el Graduado y el de Personal, fui electo en todas las elecciones en las que he sido candidato. Presidí el Comité de Personal, del que ahora soy miembro nuevamente, y soy representante de mi Departamento al Comité de Personal de la Facultad de Ingeniería. Hoy presido ese Comité.
+      <dt><h3>¿Qué experiencias lo cualifican a usted para ser Rector del Recinto Universitario de Mayagüez? #1</h3></dt>
+      <dd>Dos veces fui Director Asociado de mi Departamento y una vez Decano Auxiliar de Asuntos Académicos del Recinto. Fui electo Senador Académico y representé con ahínco a mi Facultad en el Senado. Fui electo al Comité Graduado de mi Departamento durante 10 años. He sido electo al Comité de Personal de mi Departamento. En ambos comités, el Graduado y el de Personal, fui electo en todas las elecciones en las que he sido candidato. Presidí el Comité de Personal, del que ahora soy miembro nuevamente, y soy representante de mi Departamento al Comité de Personal de la Facultad de Ingeniería. Hoy presido ese Comité.
 
-De estas experiencias de gobernanza universitaria las de servicio por elección requerían el endoso y apoyo de mis representados. Las administrativas requerían supervisión del personal docente y no docente. Cree, o participé en la creación, de planes e itinerarios de trabajo y del seguimiento de los mismos. Participé en la definición de visiones y misiones.
+      De estas experiencias de gobernanza universitaria las de servicio por elección requerían el endoso y apoyo de mis representados. Las administrativas requerían supervisión del personal docente y no docente. Cree, o participé en la creación, de planes e itinerarios de trabajo y del seguimiento de los mismos. Participé en la definición de visiones y misiones.
 
-He construido presupuestos. He negociado e informado del resultado de las negociaciones a los que represento. También he enfrentado a mis superiores en el reclamo de lo que es justo para los que represento. Esto lo he hecho en reuniones o desde la silla de administrador con el mismo ánimo que participo en marchas, huelgas y otras manifestaciones. Nunca he sentido contradicción entre la protesta y la Universidad, entre el reclamo vigoroso y el rigor en la enseñanza o la investigación. O somos democráticos, con todas sus complicaciones, o no lo somos.</dd>
+      He construido presupuestos. He negociado e informado del resultado de las negociaciones a los que represento. También he enfrentado a mis superiores en el reclamo de lo que es justo para los que represento. Esto lo he hecho en reuniones o desde la silla de administrador con el mismo ánimo que participo en marchas, huelgas y otras manifestaciones. Nunca he sentido contradicción entre la protesta y la Universidad, entre el reclamo vigoroso y el rigor en la enseñanza o la investigación. O somos democráticos, con todas sus complicaciones, o no lo somos.</dd>
 
-<dt><h3>Dada la naturaleza, complejidad y extensión de nuestro Recinto que incluye cuatro distintas Facultades, la Estación Experimental Agrícola y el Servicio de Extensión Agrícola; a su juicio, ¿cuáles son las necesidades apremiantes del Recinto? De ser nombrado Rector, ¿cómo comenzaría a atenderlas? #1</h3></dt>
-                <dd>A menudo lo urgente no da paso a lo importante. Como lo urgente hay que atenderlo de inmediato la búsqueda de fondos para operar adecuadamente es la prioridad.
+      <dt><h3>Dada la naturaleza, complejidad y extensión de nuestro Recinto que incluye cuatro distintas Facultades, la Estación Experimental Agrícola y el Servicio de Extensión Agrícola; a su juicio, ¿cuáles son las necesidades apremiantes del Recinto? De ser nombrado Rector, ¿cómo comenzaría a atenderlas? #1</h3></dt>
+      <dd>A menudo lo urgente no da paso a lo importante. Como lo urgente hay que atenderlo de inmediato la búsqueda de fondos para operar adecuadamente es la prioridad.
 
-Yo no me creo el cuento de la crisis fiscal. Nuestro dinero está donde siempre ha estado, en el Fondo General. Nos toca 9.6% de ese fondo hasta que cambie la ley. De hecho, hay tanto dinero en nuestro País que hasta sobra para robarlo según reseña casi a diario la prensa.
+      Yo no me creo el cuento de la crisis fiscal. Nuestro dinero está donde siempre ha estado, en el Fondo General. Nos toca 9.6% de ese fondo hasta que cambie la ley. De hecho, hay tanto dinero en nuestro País que hasta sobra para robarlo según reseña casi a diario la prensa.
 
-Por lo tanto, quien sea Rector está obligado a buscar nuestros fondos, en la Legislatura y por encima de cualquiera, para cumplir con sus funciones según las define la Ley: (1) hacer justicia con los docentes y no docentes que se ha afectado al no recibir los ascensos y aumentos que por derecho le corresponden y (2) mantener la operación sana de nuestro Recinto. Recordemos que contratar, enviar a estudiar, dar licencias son acciones de la Junta Administrativa no de otro cuerpo. Si tenemos el presupuesto, o conseguimos el presupuesto con acción directa del Rector, todo esto lo podemos hacer sin pedir permiso. El que no esté dispuesto a hacer esto no debe aspirar a ser Rector, punto.
+      Por lo tanto, quien sea Rector está obligado a buscar nuestros fondos, en la Legislatura y por encima de cualquiera, para cumplir con sus funciones según las define la Ley: (1) hacer justicia con los docentes y no docentes que se ha afectado al no recibir los ascensos y aumentos que por derecho le corresponden y (2) mantener la operación sana de nuestro Recinto. Recordemos que contratar, enviar a estudiar, dar licencias son acciones de la Junta Administrativa no de otro cuerpo. Si tenemos el presupuesto, o conseguimos el presupuesto con acción directa del Rector, todo esto lo podemos hacer sin pedir permiso. El que no esté dispuesto a hacer esto no debe aspirar a ser Rector, punto.
 
-Es decir, como muy poco hace falta normalizar nuestra situación.
+      Es decir, como muy poco hace falta normalizar nuestra situación.
 
-Pero a largo plazo, para atender lo importante, hace falta más que normalizar la situación. Las estructuras, físicas y administrativas, del RUM en que laboro son casi idénticas a las del RUM en el que me gradué hace 22 años. La visión y la misión del RUM no han cambiado. Si ha cambiado la percepción de lo que hacemos en el RUM y si ha cambiado la manera de medir el valor de lo que hacemos. Ha cambiado dentro del RUM y ha cambiado en Puerto Rico.
+      Pero a largo plazo, para atender lo importante, hace falta más que normalizar la situación. Las estructuras, físicas y administrativas, del RUM en que laboro son casi idénticas a las del RUM en el que me gradué hace 22 años. La visión y la misión del RUM no han cambiado. Si ha cambiado la percepción de lo que hacemos en el RUM y si ha cambiado la manera de medir el valor de lo que hacemos. Ha cambiado dentro del RUM y ha cambiado en Puerto Rico.
 
-¿De qué vale proponer soluciones si no estamos de acuerdo sobre nuestro fin? Conviene definir un fin. A mi juicio el fin de nuestra Universidad es producir bienestar. Necesitamos formar ciudadanos activos capaces de imaginar y construir un mejor país. Ciudadanos activos, no meros buenos trabajadores capaces de producir riqueza. Necesitamos formar ciudadanos activos con pensamiento crítico, capaces de crear nuevo conocimiento y nuevas técnicas. Necesitamos inculcar en nuestra comunidad el sentido de solidaridad entre nosotros y de servicio a la comunidad.
+      ¿De qué vale proponer soluciones si no estamos de acuerdo sobre nuestro fin? Conviene definir un fin. A mi juicio el fin de nuestra Universidad es producir bienestar. Necesitamos formar ciudadanos activos capaces de imaginar y construir un mejor país. Ciudadanos activos, no meros buenos trabajadores capaces de producir riqueza. Necesitamos formar ciudadanos activos con pensamiento crítico, capaces de crear nuevo conocimiento y nuevas técnicas. Necesitamos inculcar en nuestra comunidad el sentido de solidaridad entre nosotros y de servicio a la comunidad.
 
-Es absurda la insistencia de que toda actividad tenga que justificarse en términos de retorno monetario de la inversión. La creación de riqueza es tan solo un componente de nuestro valor como institución y no es el más importante. Insistir en medir la aportación universitaria con una regla que sólo mide la creación de riqueza es una manera de empequeñecer nuestra aportación.</dd>
+      Es absurda la insistencia de que toda actividad tenga que justificarse en términos de retorno monetario de la inversión. La creación de riqueza es tan solo un componente de nuestro valor como institución y no es el más importante. Insistir en medir la aportación universitaria con una regla que sólo mide la creación de riqueza es una manera de empequeñecer nuestra aportación.</dd>
 
-<dt><h3>Sin recurrir a consideraciones económicas, ¿qué otras áreas del ámbito universitario entiende usted que merecen prioridad? ¿Cómo específicamente las trabajaría?. #1</h3></dt>
-                <dd>Necesitamos lograr la participación real, justa y efectiva de la comunidad universitaria en los procesos de toma de decisiones. Necesitamos usar el diálogo colaborativo para establecer nuestras prioridades y las acciones que nos lleven a atender nuestros problemas. Recabaría el apoyo del Senado Académico, de los consejos y asociaciones de estudiantes, y las organizaciones no docentes para comenzar a construir estos procesos.</dd>
+      <dt><h3>Sin recurrir a consideraciones económicas, ¿qué otras áreas del ámbito universitario entiende usted que merecen prioridad? ¿Cómo específicamente las trabajaría?. #1</h3></dt>
+      <dd>Necesitamos lograr la participación real, justa y efectiva de la comunidad universitaria en los procesos de toma de decisiones. Necesitamos usar el diálogo colaborativo para establecer nuestras prioridades y las acciones que nos lleven a atender nuestros problemas. Recabaría el apoyo del Senado Académico, de los consejos y asociaciones de estudiantes, y las organizaciones no docentes para comenzar a construir estos procesos.</dd>
 
-<dt><h3>¿Cómo cree usted que el personal docente del RUM se ha afectado con las medidas cautelares y otras decisiones ejecutivas recientes? ¿Qué acciones específicas tomaría para motivar y retener a los miembros de la Facultad del Recinto?</h3></dt>
-                <dd>El personal docente, y el no docente, se ha afectado al no recibir los ascensos y aumentos que por derecho le corresponden. En el caso específico de los docentes no se otorgan los ascensos para los que los docentes han sido recomendados, se cancelan las sabáticas, las licencias de estudio. Las acciones a tomar las describí en la contestación a la pregunta 4. #1</dd>
-
-
-            </dl>
+      <dt><h3>¿Cómo cree usted que el personal docente del RUM se ha afectado con las medidas cautelares y otras decisiones ejecutivas recientes? ¿Qué acciones específicas tomaría para motivar y retener a los miembros de la Facultad del Recinto?</h3></dt>
+      <dd>El personal docente, y el no docente, se ha afectado al no recibir los ascensos y aumentos que por derecho le corresponden. En el caso específico de los docentes no se otorgan los ascensos para los que los docentes han sido recomendados, se cancelan las sabáticas, las licencias de estudio. Las acciones a tomar las describí en la contestación a la pregunta 4. #1</dd>
 
 
+    </dl>
 
-        </div>
-  </div><!-- /row -->
+
+
+  </div>
+</div><!-- /row -->
 </section>
