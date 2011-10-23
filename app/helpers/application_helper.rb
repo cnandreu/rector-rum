@@ -1,7 +1,7 @@
 module ApplicationHelper
 
   def title
-    base_title = "Rector RUM 2011"
+    base_title = "Colegio Democratico"
     @title.nil? ? base_title : "#{base_title} | #{@title}"
   end
 
