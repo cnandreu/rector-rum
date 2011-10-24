@@ -5,11 +5,11 @@ class PagesController < ApplicationController
   end
   
   def about
-    @title = "Acerca de Colegio Democrático"
+    @title = "Acerca de Nosotros"
   end
 
   def contact
-    @title = "Contáctenos"
+    @title = "Contactanos"
   end
 
   def los5 
