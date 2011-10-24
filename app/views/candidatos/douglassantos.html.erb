@@ -1,25 +1,26 @@
 <section id="media">
-  <div class="row">
+<div class="row">
   <!-- Table structure -->
-      <div class="span3">
-            <p class="media-grid">
-                <img class="thumbnail" src="http://placehold.it/138x170" alt="">
-            </p>
-      </div>
-      <div class="span13">
-      <h1><%= @title %></h1>
-      <p>Thumbnails in the <code>.media-grid</code> can be any size, but they work best when mapped directly to the built-in Bootstrap grid system. Image widths like 90, 210, and 330 combine with a few pixels of padding to equal the <code>.span2</code>, <code>.span4</code>, and <code>.span6</code> column sizes.</p>
-      </div>
+  <div class="span3">
+    <p class="media-grid">
+    <%= image_candidate(get_linkable_name(@title),"135x170") %>
+
+    </p>
   </div>
-    <div class="page-header">
-        <h1>Preguntas</h1>
-    </div>
+  <div class="span13">
+    <h1><%= @title %></h1>
+    <p>Thumbnails in the <code>.media-grid</code> can be any size, but they work best when mapped directly to the built-in Bootstrap grid system. Image widths like 90, 210, and 330 combine with a few pixels of padding to equal the <code>.span2</code>, <code>.span4</code>, and <code>.span6</code> column sizes.</p>
+  </div>
+</div>
+<div class="page-header">
+  <h1>Preguntas</h1>
+</div>
 
-  <div class="row">
-        <div class="span16">
+<div class="row">
+  <div class="span16">
 
-        <!-- Preguntas -->
+    <!-- Preguntas -->
 
-        </div>
-  </div><!-- /row -->
+  </div>
+</div><!-- /row -->
 </section>
