@@ -1,15 +1,15 @@
 class PagesController < ApplicationController
   
   def main
-    @title = "Home"
+    @title = "Hogar"
   end
   
   def about
-    @title = "About"
+    @title = "Acerca de Colegio Democrático"
   end
 
   def contact
-    @title = "Contact us"
+    @title = "Contáctenos"
   end
 
   def los5 
