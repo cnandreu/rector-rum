@@ -15,4 +15,9 @@ class PagesController < ApplicationController
   def los5 
     @title = "Los 5"
   end
+
+  def faq 
+    @title = "FAQ"
+  end
+
 end
